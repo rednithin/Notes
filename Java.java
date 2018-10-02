@@ -47,6 +47,34 @@ class Program {
     deque.peekLast();
 
     /*
+     * Vector - List (Synchronised)
+     */
+     Vector v = new Vector();
+
+     v.add(value);
+     v.add(index, value);
+
+     v.addAll(c); // Collection
+     v.addAll(index, c);
+
+     v.clear();
+
+     v.contains(value);
+
+     v.get(index);
+     v.indexOf(value);
+     v.lastIndexOf(value);
+
+     v.remove(value);
+
+     v.size();
+
+     v.setElementAt(value, index);
+     v.insertElementAt(value, index);
+
+     v.retainAll(c);
+
+    /*
      * Map - HashMap(Unordered), LinkedHashMap(Sorted by Time), TreeMap(Sorted by
      * Key).
      */
